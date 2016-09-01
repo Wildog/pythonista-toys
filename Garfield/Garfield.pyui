@@ -1,0 +1,162 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {320, 320}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : true,
+        "frame" : "{{0, 0}, {320, 568}}",
+        "class" : "ScrollView",
+        "nodes" : [
+          {
+            "selected" : false,
+            "frame" : "{{0, 0}, {320, 290}}",
+            "class" : "ImageView",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "WB",
+              "frame" : "{{110, 110}, {100, 100}}",
+              "class" : "ImageView",
+              "name" : "imageview",
+              "uuid" : "20F531BA-806A-4B7F-BD07-202EFCFE0AA6"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{20, 355}, {90, 32}}",
+            "class" : "Button",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "uuid" : "96512AC3-F2D0-4F5C-8452-BD431EF8237B",
+              "flex" : "RB",
+              "corner_radius" : 5,
+              "background_color" : "RGBA(1.000000,0.521739,0.000000,1.000000)",
+              "frame" : "{{120, 144}, {80, 32}}",
+              "border_color" : "RGBA(1.000000,0.521739,0.000000,1.000000)",
+              "border_width" : 1,
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "title" : "Prev",
+              "action" : "page_action",
+              "class" : "Button",
+              "name" : "prev",
+              "font_size" : 18
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{115, 355}, {90, 32}}",
+            "class" : "Button",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "uuid" : "9EB80119-2459-4BF4-8F2B-1833FD7DE9B7",
+              "flex" : "LR",
+              "corner_radius" : 5,
+              "background_color" : "RGBA(1.000000,0.521739,0.000000,1.000000)",
+              "frame" : "{{120, 144}, {80, 32}}",
+              "border_color" : "RGBA(1.000000,0.521739,0.000000,1.000000)",
+              "border_width" : 1,
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "title" : "Next",
+              "action" : "page_action",
+              "class" : "Button",
+              "name" : "next",
+              "font_size" : 18
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{210, 355}, {90, 32}}",
+            "class" : "Button",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "uuid" : "28D37211-B142-4E73-9837-D1AEF3912049",
+              "flex" : "LB",
+              "corner_radius" : 5,
+              "background_color" : "RGBA(1.000000,0.521739,0.000000,1.000000)",
+              "frame" : "{{120, 144}, {80, 32}}",
+              "border_color" : "RGBA(1.000000,0.521739,0.000000,1.000000)",
+              "border_width" : 1,
+              "tint_color" : "RGBA(1.000000,0.965517,0.965517,1.000000)",
+              "title" : "Share",
+              "action" : "share_action",
+              "class" : "Button",
+              "name" : "button3",
+              "font_size" : 18
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{0, 308}, {320, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "WLR",
+              "font_size" : 15,
+              "font_name" : "ChalkboardSE-Light",
+              "frame" : "{{85, 144}, {150, 32}}",
+              "uuid" : "A7D94D4D-7A0C-4997-9712-282D160D0C9B",
+              "text" : "Loading...",
+              "alignment" : "center",
+              "class" : "Label",
+              "name" : "date",
+              "text_color" : "RGBA(0.308279,0.308279,0.308279,1.000000)"
+            }
+          },
+          {
+            "selected" : true,
+            "frame" : "{{15, 410}, {290, 225}}",
+            "class" : "TableView",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "uuid" : "26B6D8E1-C4DF-4DB3-8E44-410CE4F1246A",
+              "corner_radius" : 5,
+              "background_color" : "RGBA(0.988017,0.988017,0.988017,1.000000)",
+              "frame" : "{{60, 60}, {200, 200}}",
+              "data_source_items" : "",
+              "tint_color" : "RGBA(0.898693,0.898693,0.898693,1.000000)",
+              "data_source_number_of_lines" : 1,
+              "border_width" : 0,
+              "border_color" : "RGBA(0.685185,0.685185,0.685185,1.000000)",
+              "data_source_delete_enabled" : false,
+              "data_source_font_size" : 16,
+              "row_height" : 40,
+              "class" : "TableView",
+              "name" : "tableview1",
+              "flex" : "W"
+            }
+          }
+        ],
+        "attributes" : {
+          "flex" : "WH",
+          "frame" : "{{-47, -2}, {320, 320}}",
+          "uuid" : "DAA1484A-DB43-435A-BE54-70F444C6462E",
+          "content_height" : 800,
+          "class" : "ScrollView",
+          "content_width" : 320,
+          "name" : "scrollview1"
+        }
+      }
+    ],
+    "attributes" : {
+      "flex" : "",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "name" : "Garfield"
+    }
+  }
+]
