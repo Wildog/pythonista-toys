@@ -1,0 +1,653 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {320, 568}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : true,
+        "frame" : "{{0, 0}, {320, 568}}",
+        "class" : "ScrollView",
+        "nodes" : [
+          {
+            "selected" : false,
+            "frame" : "{{0, 0}, {320, 320}}",
+            "class" : "ImageView",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "WB",
+              "frame" : "{{110, 234}, {100, 100}}",
+              "class" : "ImageView",
+              "name" : "imageview1",
+              "uuid" : "D5AB10BF-A961-4ABA-9E2B-4EDD017EDB40"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{114, 232}, {200, 80}}",
+            "class" : "ImageView",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "LB",
+              "alpha" : 0.8,
+              "border_width" : 0,
+              "frame" : "{{110, 234}, {100, 100}}",
+              "class" : "ImageView",
+              "background_color" : "RGBA(0.061002,0.061002,0.061002,1.000000)",
+              "uuid" : "B0EEE10D-546B-467A-9EC2-ED5EA067DD83",
+              "corner_radius" : 5,
+              "border_color" : "RGBA(0.058824,0.058824,0.058824,1.000000)",
+              "name" : "imageview2"
+            }
+          },
+          {
+            "selected" : true,
+            "frame" : "{{0, 320}, {320, 1000}}",
+            "class" : "ScrollView",
+            "nodes" : [
+              {
+                "selected" : false,
+                "frame" : "{{0, 0}, {320, 60}}",
+                "class" : "View",
+                "nodes" : [
+                  {
+                    "selected" : false,
+                    "frame" : "{{11, 10}, {50, 30}}",
+                    "class" : "Label",
+                    "nodes" : [
+
+                    ],
+                    "attributes" : {
+                      "flex" : "",
+                      "font_name" : "Verdana",
+                      "frame" : "{{85, 144}, {150, 32}}",
+                      "uuid" : "F39E15E9-0EFD-4F32-A250-4B0848ED6A93",
+                      "text" : "--",
+                      "alignment" : "center",
+                      "class" : "Label",
+                      "number_of_lines" : 1,
+                      "font_size" : 18,
+                      "name" : "focal"
+                    }
+                  },
+                  {
+                    "selected" : false,
+                    "frame" : "{{19, 38}, {34, 18}}",
+                    "class" : "Label",
+                    "nodes" : [
+
+                    ],
+                    "attributes" : {
+                      "flex" : "",
+                      "font_name" : "Verdana",
+                      "frame" : "{{85, 144}, {150, 32}}",
+                      "uuid" : "A0C9345F-5B60-45F0-BDDA-91FC08E5AFA7",
+                      "text" : "mm",
+                      "alignment" : "center",
+                      "class" : "Label",
+                      "font_size" : 12,
+                      "name" : "mm"
+                    }
+                  },
+                  {
+                    "selected" : false,
+                    "frame" : "{{82, 10}, {55, 30}}",
+                    "class" : "Label",
+                    "nodes" : [
+
+                    ],
+                    "attributes" : {
+                      "flex" : "",
+                      "font_size" : 18,
+                      "frame" : "{{85, 144}, {150, 32}}",
+                      "uuid" : "F39E15E9-0EFD-4F32-A250-4B0848ED6A93",
+                      "text" : "--",
+                      "alignment" : "center",
+                      "class" : "Label",
+                      "number_of_lines" : 1,
+                      "name" : "aperture",
+                      "font_name" : "Verdana"
+                    }
+                  },
+                  {
+                    "selected" : false,
+                    "frame" : "{{73, 38}, {73, 18}}",
+                    "class" : "Label",
+                    "nodes" : [
+
+                    ],
+                    "attributes" : {
+                      "font_size" : 12,
+                      "frame" : "{{85, 144}, {150, 32}}",
+                      "uuid" : "A0C9345F-5B60-45F0-BDDA-91FC08E5AFA7",
+                      "text" : "f-stop",
+                      "alignment" : "center",
+                      "class" : "Label",
+                      "name" : "fstop",
+                      "font_name" : "Verdana"
+                    }
+                  },
+                  {
+                    "selected" : false,
+                    "frame" : "{{157, 10}, {73, 30}}",
+                    "class" : "Label",
+                    "nodes" : [
+
+                    ],
+                    "attributes" : {
+                      "font_name" : "Verdana",
+                      "frame" : "{{85, 144}, {150, 32}}",
+                      "uuid" : "F39E15E9-0EFD-4F32-A250-4B0848ED6A93",
+                      "text" : "----",
+                      "alignment" : "center",
+                      "class" : "Label",
+                      "number_of_lines" : 1,
+                      "name" : "shutter",
+                      "font_size" : 18
+                    }
+                  },
+                  {
+                    "selected" : false,
+                    "frame" : "{{157, 38}, {73, 18}}",
+                    "class" : "Label",
+                    "nodes" : [
+
+                    ],
+                    "attributes" : {
+                      "font_name" : "Verdana",
+                      "frame" : "{{85, 144}, {150, 32}}",
+                      "uuid" : "A0C9345F-5B60-45F0-BDDA-91FC08E5AFA7",
+                      "text" : "shutter",
+                      "alignment" : "center",
+                      "class" : "Label",
+                      "name" : "speed",
+                      "font_size" : 12
+                    }
+                  },
+                  {
+                    "selected" : true,
+                    "frame" : "{{241, 10}, {73, 30}}",
+                    "class" : "Label",
+                    "nodes" : [
+
+                    ],
+                    "attributes" : {
+                      "flex" : "",
+                      "name" : "iso",
+                      "frame" : "{{85, 144}, {150, 32}}",
+                      "uuid" : "F39E15E9-0EFD-4F32-A250-4B0848ED6A93",
+                      "text" : "--",
+                      "alignment" : "center",
+                      "class" : "Label",
+                      "number_of_lines" : 1,
+                      "font_size" : 18,
+                      "font_name" : "Verdana"
+                    }
+                  },
+                  {
+                    "selected" : false,
+                    "frame" : "{{241, 38}, {73, 18}}",
+                    "class" : "Label",
+                    "nodes" : [
+
+                    ],
+                    "attributes" : {
+                      "flex" : "",
+                      "name" : "iso_label",
+                      "frame" : "{{85, 144}, {150, 32}}",
+                      "uuid" : "A0C9345F-5B60-45F0-BDDA-91FC08E5AFA7",
+                      "text" : "iso",
+                      "alignment" : "center",
+                      "class" : "Label",
+                      "font_size" : 12,
+                      "font_name" : "Verdana"
+                    }
+                  }
+                ],
+                "attributes" : {
+                  "flex" : "LR",
+                  "frame" : "{{110, 110}, {100, 100}}",
+                  "class" : "View",
+                  "name" : "view1",
+                  "uuid" : "78D1359A-0243-43F2-A596-20293A6E8444"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{40, 62}, {240, 24}}",
+                "class" : "Label",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "flex" : "W",
+                  "name" : "date",
+                  "frame" : "{{85, 144}, {150, 32}}",
+                  "uuid" : "1F3B42C5-29F8-41B4-8BA7-20DC9B77DC81",
+                  "text" : "Loading Photo...",
+                  "alignment" : "center",
+                  "class" : "Label",
+                  "font_size" : 12,
+                  "font_name" : "Verdana"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{22, 80}, {276, 40}}",
+                "class" : "TextView",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "uuid" : "47914B8A-CCFF-4A57-AEA8-C94824A28973",
+                  "flex" : "WH",
+                  "frame" : "{{60, 60}, {200, 200}}",
+                  "editable" : false,
+                  "alignment" : "center",
+                  "autocorrection_type" : "default",
+                  "text" : "Unknown Place",
+                  "font_name" : "Verdana",
+                  "spellchecking_type" : "default",
+                  "class" : "TextView",
+                  "name" : "location",
+                  "font_size" : 10
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{5, 118}, {76, 22}}",
+                "class" : "Label",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "font_name" : "DejaVuSansMono",
+                  "frame" : "{{85, 144}, {150, 32}}",
+                  "uuid" : "F58C8078-E34C-4E85-9125-20A99715FA9B",
+                  "text" : "Size:",
+                  "alignment" : "right",
+                  "class" : "Label",
+                  "font_size" : 13,
+                  "name" : "filesize_label"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{5, 140}, {76, 22}}",
+                "class" : "Label",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "font_size" : 13,
+                  "frame" : "{{85, 144}, {150, 32}}",
+                  "uuid" : "F58C8078-E34C-4E85-9125-20A99715FA9B",
+                  "text" : "W x H:",
+                  "alignment" : "right",
+                  "class" : "Label",
+                  "name" : "wh_label",
+                  "font_name" : "DejaVuSansMono"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{5, 162}, {76, 22}}",
+                "class" : "Label",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "font_name" : "DejaVuSansMono",
+                  "frame" : "{{85, 144}, {150, 32}}",
+                  "uuid" : "F58C8078-E34C-4E85-9125-20A99715FA9B",
+                  "text" : "Camera:",
+                  "alignment" : "right",
+                  "class" : "Label",
+                  "name" : "camera_label",
+                  "font_size" : 13
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{5, 184}, {76, 22}}",
+                "class" : "Label",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "font_name" : "DejaVuSansMono",
+                  "frame" : "{{85, 144}, {150, 32}}",
+                  "uuid" : "F58C8078-E34C-4E85-9125-20A99715FA9B",
+                  "text" : "Lens:",
+                  "alignment" : "right",
+                  "class" : "Label",
+                  "name" : "lens_label",
+                  "font_size" : 13
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{5, 222}, {76, 22}}",
+                "class" : "Label",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "font_name" : "DejaVuSansMono",
+                  "frame" : "{{85, 144}, {150, 32}}",
+                  "uuid" : "F58C8078-E34C-4E85-9125-20A99715FA9B",
+                  "text" : "Artist:",
+                  "alignment" : "right",
+                  "class" : "Label",
+                  "name" : "artist_label",
+                  "font_size" : 13
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{5, 244}, {76, 22}}",
+                "class" : "Label",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "font_name" : "DejaVuSansMono",
+                  "frame" : "{{85, 144}, {150, 32}}",
+                  "uuid" : "F58C8078-E34C-4E85-9125-20A99715FA9B",
+                  "text" : "Program:",
+                  "alignment" : "right",
+                  "class" : "Label",
+                  "name" : "program_label",
+                  "font_size" : 13
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{5, 266}, {76, 22}}",
+                "class" : "Label",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "name" : "flash_label",
+                  "frame" : "{{85, 144}, {150, 32}}",
+                  "uuid" : "F58C8078-E34C-4E85-9125-20A99715FA9B",
+                  "text" : "Flash:",
+                  "alignment" : "right",
+                  "class" : "Label",
+                  "font_size" : 13,
+                  "font_name" : "DejaVuSansMono"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{5, 288}, {76, 22}}",
+                "class" : "Label",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "name" : "software_label",
+                  "frame" : "{{85, 144}, {150, 32}}",
+                  "uuid" : "F58C8078-E34C-4E85-9125-20A99715FA9B",
+                  "text" : "Software:",
+                  "alignment" : "right",
+                  "class" : "Label",
+                  "font_size" : 13,
+                  "font_name" : "DejaVuSansMono"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{90, 118}, {229, 22}}",
+                "class" : "Label",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "flex" : "W",
+                  "name" : "filesize",
+                  "frame" : "{{85, 284}, {150, 32}}",
+                  "uuid" : "ECDF2B18-93B4-469B-8C8E-903C18C28C3E",
+                  "text" : "Unknown",
+                  "alignment" : "left",
+                  "class" : "Label",
+                  "font_size" : 13,
+                  "font_name" : "DejaVuSansMono"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{90, 140}, {229, 22}}",
+                "class" : "Label",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "flex" : "W",
+                  "font_name" : "DejaVuSansMono",
+                  "frame" : "{{85, 284}, {150, 32}}",
+                  "uuid" : "ECDF2B18-93B4-469B-8C8E-903C18C28C3E",
+                  "text" : "Unknown",
+                  "alignment" : "left",
+                  "class" : "Label",
+                  "font_size" : 13,
+                  "name" : "wh"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{90, 162}, {229, 22}}",
+                "class" : "Label",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "flex" : "W",
+                  "font_name" : "DejaVuSansMono",
+                  "frame" : "{{85, 284}, {150, 32}}",
+                  "uuid" : "ECDF2B18-93B4-469B-8C8E-903C18C28C3E",
+                  "text" : "Unknown",
+                  "alignment" : "left",
+                  "class" : "Label",
+                  "font_size" : 13,
+                  "name" : "camera"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{90, 222}, {229, 22}}",
+                "class" : "Label",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "flex" : "W",
+                  "font_name" : "DejaVuSansMono",
+                  "frame" : "{{85, 284}, {150, 32}}",
+                  "uuid" : "ECDF2B18-93B4-469B-8C8E-903C18C28C3E",
+                  "text" : "Unknown",
+                  "alignment" : "left",
+                  "class" : "Label",
+                  "font_size" : 13,
+                  "name" : "artist"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{90, 244}, {229, 22}}",
+                "class" : "Label",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "flex" : "W",
+                  "font_name" : "DejaVuSansMono",
+                  "frame" : "{{85, 284}, {150, 32}}",
+                  "uuid" : "ECDF2B18-93B4-469B-8C8E-903C18C28C3E",
+                  "text" : "Unknown",
+                  "alignment" : "left",
+                  "class" : "Label",
+                  "font_size" : 13,
+                  "name" : "program"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{90, 266}, {229, 22}}",
+                "class" : "Label",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "flex" : "W",
+                  "font_name" : "DejaVuSansMono",
+                  "frame" : "{{85, 284}, {150, 32}}",
+                  "uuid" : "ECDF2B18-93B4-469B-8C8E-903C18C28C3E",
+                  "text" : "Unknown",
+                  "alignment" : "left",
+                  "class" : "Label",
+                  "font_size" : 13,
+                  "name" : "flash"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{90, 288}, {229, 22}}",
+                "class" : "Label",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "flex" : "W",
+                  "font_name" : "DejaVuSansMono",
+                  "frame" : "{{85, 284}, {150, 32}}",
+                  "uuid" : "ECDF2B18-93B4-469B-8C8E-903C18C28C3E",
+                  "text" : "Unknown",
+                  "alignment" : "left",
+                  "class" : "Label",
+                  "font_size" : 13,
+                  "name" : "software"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{85, 179}, {228, 44}}",
+                "class" : "TextView",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "uuid" : "932D3367-7B41-4C98-98D7-12EFF569A850",
+                  "flex" : "W",
+                  "frame" : "{{60, 200}, {200, 200}}",
+                  "editable" : false,
+                  "alignment" : "left",
+                  "autocorrection_type" : "default",
+                  "text" : "Manufactor\nLens Model",
+                  "font_name" : "DejaVuSansMono",
+                  "spellchecking_type" : "default",
+                  "class" : "TextView",
+                  "name" : "lens",
+                  "font_size" : 13
+                }
+              }
+            ],
+            "attributes" : {
+              "uuid" : "98300B58-0FDD-4F8F-9F8F-54027F0543F6",
+              "font_size" : 14,
+              "corner_radius" : 0,
+              "content_height" : 600,
+              "frame" : "{{0, 124}, {320, 320}}",
+              "border_color" : "RGBA(0.784314,0.784314,0.784314,1.000000)",
+              "border_width" : 1,
+              "content_width" : 320,
+              "alignment" : "right",
+              "text" : "Size:",
+              "font_name" : "DejaVuSansMono",
+              "class" : "ScrollView",
+              "name" : "container",
+              "flex" : "WB"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{6, 251}, {60, 60}}",
+            "class" : "View",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "alpha" : 0.8,
+              "border_width" : 1,
+              "flex" : "RB",
+              "frame" : "{{110, 234}, {100, 100}}",
+              "class" : "View",
+              "background_color" : "RGBA(0.203704,0.203704,0.203704,1.000000)",
+              "uuid" : "9A478052-A0BE-4A89-8D75-8983895A78DF",
+              "corner_radius" : 5,
+              "border_color" : "RGBA(0.200000,0.200000,0.200000,1.000000)",
+              "name" : "background"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{15, 258}, {42, 30}}",
+            "class" : "ImageView",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "RB",
+              "frame" : "{{110, 234}, {100, 100}}",
+              "class" : "ImageView",
+              "name" : "metering",
+              "uuid" : "5F2545BB-30BB-4234-8BE3-A9E16675E7C9"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{0, 287}, {72, 26}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "RB",
+              "font_size" : 13,
+              "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "frame" : "{{85, 268}, {150, 32}}",
+              "uuid" : "19552F5E-300E-464B-8452-70AC3054F861",
+              "text" : "AWB",
+              "alignment" : "center",
+              "class" : "Label",
+              "name" : "balance",
+              "font_name" : "<System>"
+            }
+          }
+        ],
+        "attributes" : {
+          "flex" : "WH",
+          "frame" : "{{0, 124}, {320, 320}}",
+          "content_width" : 320,
+          "content_height" : 568,
+          "class" : "ScrollView",
+          "uuid" : "690EECD8-2C07-4CD2-B3B1-1E2705B31929",
+          "name" : "scrollview"
+        }
+      }
+    ],
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "EXIF",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
