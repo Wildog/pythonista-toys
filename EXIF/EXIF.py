@@ -9,14 +9,16 @@ import ui
 import io
 import os
 
-html = ''
-
 def get_exif(img):
 	ret = {}
-	info = img._getexif()
-	for tag, value in info.items():
-		decoded = TAGS.get(tag, tag)
-		ret[decoded] = value
+	try:
+		info = img._getexif()
+	except:
+		pass
+	else:
+		for tag, value in info.items():
+			decoded = TAGS.get(tag, tag)
+			ret[decoded] = value
 	return ret
 	
 def get_histogram(img):
@@ -36,7 +38,6 @@ def get_histogram(img):
 		return ctx.get_image()
 		
 def pil2ui(imgIn):
-	width, height = imgIn.size
 	b = io.BytesIO()
 	imgIn.save(b, 'JPEG')
 	imgOut = ui.Image.from_data(b.getvalue())
@@ -59,11 +60,7 @@ def generate():
 		size_field.text = size_fmt(os.path.getsize(img_path))
 		img = appex.get_image()
 	if img:
-		try:
-			exif = get_exif(img)
-		except AttributeError:
-			hud_alert('This photo doesn\'t contain EXIF data', icon='error')
-			return False
+		exif = get_exif(img)
 		
 		orientations = {
 			1: 0,
@@ -180,7 +177,7 @@ def generate():
 		metering_view.image = ui.Image(meterings.get(exif.get('MeteringMode', 0), 'average.png'))
 		
 		if exif.get('WhiteBalance') == 1:
-			balance_field.text = 'Manual'
+			balance_field.text = 'MWB'
 		
 		if exif.get('GPSInfo'):
 			try:
