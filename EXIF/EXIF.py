@@ -62,6 +62,10 @@ def generate():
 	if img:
 		exif = get_exif(img)
 		
+		width, height = img.size
+		if width > 3000 or height > 3000:
+			img.thumbnail((1000, 1000))
+		
 		orientations = {
 			1: 0,
 			2: 0,
@@ -75,9 +79,6 @@ def generate():
 		if exif.get('Orientation'):
 			img = img.rotate(orientations.get(exif['Orientation'], 0))
 		
-		width, height = img.size
-		if width > 5000 or height > 5000:
-			img.thumbnail((1000, 1000))
 		img_view.image = pil2ui(img)
 		hist = get_histogram(img)
 		hist_view.image = hist
