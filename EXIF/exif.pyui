@@ -70,8 +70,8 @@
                       "alignment" : "center",
                       "class" : "Label",
                       "number_of_lines" : 1,
-                      "font_size" : 18,
-                      "name" : "focal"
+                      "name" : "focal",
+                      "font_size" : 18
                     }
                   },
                   {
@@ -89,8 +89,8 @@
                       "text" : "mm",
                       "alignment" : "center",
                       "class" : "Label",
-                      "font_size" : 12,
-                      "name" : "mm"
+                      "name" : "mm",
+                      "font_size" : 12
                     }
                   },
                   {
@@ -102,14 +102,14 @@
                     ],
                     "attributes" : {
                       "flex" : "",
-                      "font_size" : 18,
+                      "name" : "aperture",
                       "frame" : "{{85, 144}, {150, 32}}",
                       "uuid" : "F39E15E9-0EFD-4F32-A250-4B0848ED6A93",
                       "text" : "--",
                       "alignment" : "center",
                       "class" : "Label",
                       "number_of_lines" : 1,
-                      "name" : "aperture",
+                      "font_size" : 18,
                       "font_name" : "Verdana"
                     }
                   },
@@ -121,13 +121,13 @@
 
                     ],
                     "attributes" : {
-                      "font_size" : 12,
+                      "name" : "fstop",
                       "frame" : "{{85, 144}, {150, 32}}",
                       "uuid" : "A0C9345F-5B60-45F0-BDDA-91FC08E5AFA7",
                       "text" : "f-stop",
                       "alignment" : "center",
                       "class" : "Label",
-                      "name" : "fstop",
+                      "font_size" : 12,
                       "font_name" : "Verdana"
                     }
                   },
@@ -146,8 +146,8 @@
                       "alignment" : "center",
                       "class" : "Label",
                       "number_of_lines" : 1,
-                      "name" : "shutter",
-                      "font_size" : 18
+                      "font_size" : 18,
+                      "name" : "shutter"
                     }
                   },
                   {
@@ -164,8 +164,8 @@
                       "text" : "shutter",
                       "alignment" : "center",
                       "class" : "Label",
-                      "name" : "speed",
-                      "font_size" : 12
+                      "font_size" : 12,
+                      "name" : "speed"
                     }
                   },
                   {
@@ -177,14 +177,14 @@
                     ],
                     "attributes" : {
                       "flex" : "",
-                      "name" : "iso",
+                      "font_size" : 18,
                       "frame" : "{{85, 144}, {150, 32}}",
                       "uuid" : "F39E15E9-0EFD-4F32-A250-4B0848ED6A93",
                       "text" : "--",
                       "alignment" : "center",
                       "class" : "Label",
                       "number_of_lines" : 1,
-                      "font_size" : 18,
+                      "name" : "iso",
                       "font_name" : "Verdana"
                     }
                   },
@@ -197,13 +197,13 @@
                     ],
                     "attributes" : {
                       "flex" : "",
-                      "name" : "iso_label",
+                      "font_size" : 12,
                       "frame" : "{{85, 144}, {150, 32}}",
                       "uuid" : "A0C9345F-5B60-45F0-BDDA-91FC08E5AFA7",
                       "text" : "iso",
                       "alignment" : "center",
                       "class" : "Label",
-                      "font_size" : 12,
+                      "name" : "iso_label",
                       "font_name" : "Verdana"
                     }
                   }
@@ -225,13 +225,13 @@
                 ],
                 "attributes" : {
                   "flex" : "W",
-                  "name" : "date",
+                  "font_size" : 12,
                   "frame" : "{{85, 144}, {150, 32}}",
                   "uuid" : "1F3B42C5-29F8-41B4-8BA7-20DC9B77DC81",
                   "text" : "Loading Photo...",
                   "alignment" : "center",
                   "class" : "Label",
-                  "font_size" : 12,
+                  "name" : "date",
                   "font_name" : "Verdana"
                 }
               },
@@ -331,7 +331,7 @@
               },
               {
                 "selected" : false,
-                "frame" : "{{5, 222}, {76, 22}}",
+                "frame" : "{{5, 220}, {76, 22}}",
                 "class" : "Label",
                 "nodes" : [
 
@@ -349,7 +349,7 @@
               },
               {
                 "selected" : false,
-                "frame" : "{{5, 244}, {76, 22}}",
+                "frame" : "{{5, 242}, {76, 22}}",
                 "class" : "Label",
                 "nodes" : [
 
@@ -367,7 +367,7 @@
               },
               {
                 "selected" : false,
-                "frame" : "{{5, 266}, {76, 22}}",
+                "frame" : "{{5, 264}, {76, 22}}",
                 "class" : "Label",
                 "nodes" : [
 
@@ -377,24 +377,6 @@
                   "frame" : "{{85, 144}, {150, 32}}",
                   "uuid" : "F58C8078-E34C-4E85-9125-20A99715FA9B",
                   "text" : "Flash:",
-                  "alignment" : "right",
-                  "class" : "Label",
-                  "font_size" : 13,
-                  "font_name" : "DejaVuSansMono"
-                }
-              },
-              {
-                "selected" : false,
-                "frame" : "{{5, 288}, {76, 22}}",
-                "class" : "Label",
-                "nodes" : [
-
-                ],
-                "attributes" : {
-                  "name" : "software_label",
-                  "frame" : "{{85, 144}, {150, 32}}",
-                  "uuid" : "F58C8078-E34C-4E85-9125-20A99715FA9B",
-                  "text" : "Software:",
                   "alignment" : "right",
                   "class" : "Label",
                   "font_size" : 13,
@@ -460,7 +442,7 @@
               },
               {
                 "selected" : false,
-                "frame" : "{{90, 222}, {229, 22}}",
+                "frame" : "{{90, 220}, {229, 22}}",
                 "class" : "Label",
                 "nodes" : [
 
@@ -479,7 +461,7 @@
               },
               {
                 "selected" : false,
-                "frame" : "{{90, 244}, {229, 22}}",
+                "frame" : "{{90, 242}, {229, 22}}",
                 "class" : "Label",
                 "nodes" : [
 
@@ -498,7 +480,7 @@
               },
               {
                 "selected" : false,
-                "frame" : "{{90, 266}, {229, 22}}",
+                "frame" : "{{90, 264}, {229, 22}}",
                 "class" : "Label",
                 "nodes" : [
 
@@ -517,25 +499,6 @@
               },
               {
                 "selected" : false,
-                "frame" : "{{90, 288}, {229, 22}}",
-                "class" : "Label",
-                "nodes" : [
-
-                ],
-                "attributes" : {
-                  "flex" : "W",
-                  "font_name" : "DejaVuSansMono",
-                  "frame" : "{{85, 284}, {150, 32}}",
-                  "uuid" : "ECDF2B18-93B4-469B-8C8E-903C18C28C3E",
-                  "text" : "Unknown",
-                  "alignment" : "left",
-                  "class" : "Label",
-                  "font_size" : 13,
-                  "name" : "software"
-                }
-              },
-              {
-                "selected" : false,
                 "frame" : "{{85, 179}, {228, 44}}",
                 "class" : "TextView",
                 "nodes" : [
@@ -548,12 +511,86 @@
                   "editable" : false,
                   "alignment" : "left",
                   "autocorrection_type" : "default",
-                  "text" : "Manufactor\nLens Model",
+                  "text" : "Lens Model",
                   "font_name" : "DejaVuSansMono",
                   "spellchecking_type" : "default",
                   "class" : "TextView",
                   "name" : "lens",
                   "font_size" : 13
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{5, 286}, {76, 22}}",
+                "class" : "Label",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "font_name" : "DejaVuSansMono",
+                  "frame" : "{{85, 144}, {150, 32}}",
+                  "uuid" : "F58C8078-E34C-4E85-9125-20A99715FA9B",
+                  "text" : "Zoom:",
+                  "alignment" : "right",
+                  "class" : "Label",
+                  "name" : "zoom_label",
+                  "font_size" : 13
+                }
+              },
+              {
+                "selected" : true,
+                "frame" : "{{90, 286}, {229, 22}}",
+                "class" : "Label",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "flex" : "W",
+                  "name" : "zoom",
+                  "frame" : "{{85, 284}, {150, 32}}",
+                  "uuid" : "ECDF2B18-93B4-469B-8C8E-903C18C28C3E",
+                  "text" : "Unknown",
+                  "alignment" : "left",
+                  "class" : "Label",
+                  "font_size" : 13,
+                  "font_name" : "DejaVuSansMono"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{90, 308}, {229, 22}}",
+                "class" : "Label",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "flex" : "W",
+                  "font_size" : 13,
+                  "frame" : "{{85, 284}, {150, 32}}",
+                  "uuid" : "ECDF2B18-93B4-469B-8C8E-903C18C28C3E",
+                  "text" : "Unknown",
+                  "alignment" : "left",
+                  "class" : "Label",
+                  "name" : "software",
+                  "font_name" : "DejaVuSansMono"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{5, 308}, {76, 22}}",
+                "class" : "Label",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "font_name" : "DejaVuSansMono",
+                  "frame" : "{{85, 144}, {150, 32}}",
+                  "uuid" : "F58C8078-E34C-4E85-9125-20A99715FA9B",
+                  "text" : "Software:",
+                  "alignment" : "right",
+                  "class" : "Label",
+                  "font_size" : 13,
+                  "name" : "software_label"
                 }
               }
             ],
@@ -642,11 +679,11 @@
       }
     ],
     "attributes" : {
-      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-      "enabled" : true,
       "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
-      "name" : "EXIF",
+      "enabled" : true,
       "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "EXIF",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
       "flex" : ""
     }
   }

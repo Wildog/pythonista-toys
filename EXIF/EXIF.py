@@ -111,10 +111,7 @@ def generate():
 		
 		camera_field.text = exif.get('Model', 'Unknown')
 		
-		lens = ''
-		if exif.get('LensMake'):
-			lens = exif['LensMake'] + '\n'
-		lens += exif.get('LensModel', 'Unknown')
+		lens = exif.get('LensModel', 'Unknown')
 		lens_field.text = lens
 		
 		artist_field.text = exif.get('Artist', 'Unknown')
@@ -162,6 +159,14 @@ def generate():
 			0x5f: 'Auto, Fired, Red-eye reduction, Return detected',
 			0x60: 'Unknown'}
 		flash_field.text = flashes.get(exif.get('Flash', 0x60))
+		
+		zoom_text = 'Unknown'
+		if (lens == 'iPhone 7 Plus back iSight Duo camera 6.6mm f/2.8'):
+			zoom_text = '2x Optical on Duo Camera'
+		if exif.get('DigitalZoomRatio'):
+			z = exif['DigitalZoomRatio']
+			zoom_text = '%.2gx Digital' % (float(z[0]) / z[1])
+		zoom_field.text = zoom_text
 		
 		software_field.text = exif.get('Software', 'Unknown')
 		
@@ -231,6 +236,7 @@ if __name__ == '__main__':
 	artist_field = container['artist']
 	program_field = container['program']
 	flash_field = container['flash']
+	zoom_field = container['zoom']
 	software_field = container['software']
 	metering_view = scroll_view['metering']
 	balance_field = scroll_view['balance']
